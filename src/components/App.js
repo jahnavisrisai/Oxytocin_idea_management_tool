@@ -12,7 +12,7 @@ function App() {
   function addEmptyTask(status) {
     const lastTask = tasks[tasks.length - 1];
 
-    let newTaskId = 1;
+    let newTaskId=1;
 
     if (lastTask !== undefined) {
       newTaskId = lastTask.id + 1;
