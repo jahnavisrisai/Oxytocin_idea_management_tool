@@ -75,16 +75,16 @@ export default function Task(props) {
         <input
           type="text"
           className="title input"
-          name="Highlight"
-          placeholder="Enter Highlight"
+          name="title"
+          placeholder="Enter Title"
           disabled={collapsed}
           defaultValue={task.title}
         />
         <textarea
           rows="2"
           className="description input"
-          name="User"
-          placeholder="Enter UserName"
+          name="description"
+          placeholder="Enter Description"
           defaultValue={task.description}
         />
         <div className="urgencyLabels">

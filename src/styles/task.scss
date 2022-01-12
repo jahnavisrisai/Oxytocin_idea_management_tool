@@ -27,7 +27,7 @@
       background-color: transparent;
       border: 1px solid transparent;
       border-radius: 0.25rem;
-      color: $black;
+      color: $white;
       text-align: center;
       resize: none;
       display: flex;
@@ -35,17 +35,17 @@
 
       &:hover {
         cursor: pointer;
-        border: 1px solid $black;
+        border: 1px solid $white;
       }
 
       &:focus {
         outline: none;
-        border-color: $black;
-        color: $black;
+        border-color: $gold;
+        color: $gold;
       }
 
       &::placeholder {
-        color: $black;
+        color: $white;
       }
     }
 
@@ -157,7 +157,7 @@
 
       .description,
       label {
-        margin: 0;
+        display: none;
       }
 
       label.selected {
